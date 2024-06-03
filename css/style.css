@@ -1,0 +1,209 @@
+body {
+-webkit-text-fill-color: #FFFFFF;
+  background:rgba(0, 0, 0, 0.1) url("https://source.unsplash.com/random/?nature") no-repeat fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+    margin: 0;
+    overflow: scroll;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+font-family: "Inconsolata";
+}
+#yapping{
+text-align: center;
+animation: goup 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
+
+}
+@keyframes goup {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+#bg{
+width: 100%;
+height: 100%;
+}
+#twitterlmao{
+border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 1.5px;
+  width: 45px;
+  height: 45px;
+filter: invert(100%);
+}
+#twitterlmao:hover{
+  border: 2px solid #FFFFFF;
+  transition: 0.5s;
+}
+#tetrio{
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+padding: 1.5px;
+width: 45px;
+height: 45px;
+}
+#tetrio:hover {
+transition: 0.5s;
+}
+#ciu{
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+width: 85px;
+height: 48px;
+}
+#ciu:hover {
+  border: 2px solid #8D00FF;
+  filter: invert(25%);
+  transition: 0.5s;
+}
+#youtube{
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+height: 48px;
+}
+#youtube:hover {
+  color: rgba(255, 0, 0, 1);
+  border: 2px solid rgba(255, 5, 5, 1);
+  transition: 0.5s;
+}
+#github {
+  border: 2px solid rgba(173, 173, 173, 1);
+  width:45px;
+  height: 48px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+}
+#github:hover {
+  filter: invert(25%);
+  transition: 0.5s;
+}
+
+#social{
+margin: 0;
+display: inline-flex;
+}
+
+@keyframes godown {
+  0% {
+    transform: translateY(-150px);
+  }
+
+  100% {
+    transform: translateY(175px);
+  }
+}
+
+#awebsite{
+z-index: 9;
+background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png') fixed;
+height: 100% auto;
+font-size: 17px;
+}
+#tetrioupd{
+  height: 10rem auto;
+background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+}
+#blog {
+  height: 10rem auto;
+  background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+}
+#clicker {
+  height: 10rem auto;
+  background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+}
+#ipdisplayer {
+  height: 10rem auto;
+  background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+}
+
+ .button {
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   padding-top: 0.4rem;
+   background-color: #111;
+   border: 1px solid #888;
+   border-radius: 3px;
+   color: #888;
+   cursor: pointer;
+   margin-right: 0.5rem;
+   transform: translateY(0px);
+   transition: 0.3s color, 0.3s background-color, 0.3s border-color, 0.3s transform;
+ }
+  .button:hover {
+    background-color: #333;
+    border-color: #FFF;
+    color: #FFF;
+    transform: translateY(-1px);
+  }
+  .button:active {
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #000;
+    transform: translateY(2px);
+    transition: 0.05s color, 0.05s background-color, 0.05s border-color, 0.05s transform;
+  }
+#extra{
+  display: flex;
+  width: 100%;
+  animation: godown 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
+  background-color: #33343C;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 11%);
+  clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 2%);
+  height:1500px;
+  overflow-y: hidden;
+}
+
+#about{
+font-size: 17px;
+flex: 3;
+width: 50% auto;
+}
+
+#projects{
+flex: 1;
+float: right;
+width: 100% auto;
+}
+@media only screen and (max-width: 720px){
+  #extra {
+    display: inline-block;
+    text-align: center;
+    padding-top: 37px;
+    animation: godown 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
+    background-color: #33343C;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 11%);
+    clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 2%);
+    height: 1500px;
+    overflow-y: hidden;
+  }
+  
+  #about {
+    flex: 3;
+    align-self: centet;
+    text-align: center;
+  }
+  }
+  
+  #projects {
+    flex: 3;
+    display: flexbox;
+  }
+#clicknum{
+color: black;
+}
+#click{
+color: black;
+}
+img.emoji {
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
