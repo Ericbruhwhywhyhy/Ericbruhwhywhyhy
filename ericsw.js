@@ -9,7 +9,7 @@ self.addEventListener('install', function(event) {
 				'/js/tetrio.js',
 				'/css/tetrio.css',
 				'/sfx/tetrio.ogg',
-				'/sw.js',
+				'https://raw.githubusercontent.com/Ericbruhwhywhyhy/Ericbruhwhywhyhy/main/ericsw.js',
 				'/res/icon/error.svg'
 			]);
     })
